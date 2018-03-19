@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
+import SocialCard from './components/socialcard'
 
 class App extends Component {
   constructor() {
@@ -16,33 +17,22 @@ class App extends Component {
       .catch(error => this.setState({ error }));
   }
   render() {
-    var userName = this.state.alldata.map((content) => {
-      return <li key={content.user}>{content.user}</li>
-    })
-    var email = this.state.alldata.map((content) => {
-      return <li key={content.user}>{content.email}</li>
-    })
     return (
       <Fragment>
         <div id="theme">
           <img src="/images/title.png" alt="Social App Icon" className="img-title" />
         </div>
         {this.state.error && <p>{this.state.error.message}</p>}
-        <table>
-          <tbody>
-            <tr>
-              <th>UserName</th>
-              <th>Email</th>
-            </tr>
-            <tr>
-              <td>{userName}</td>
-              <td>{email}</td>
-            </tr>
-          </tbody>
-        </table>
 
-
-
+        {this.state.alldata.map(content =>
+          <SocialCard
+            user={content.user}
+            message={content.info}
+            email={content.email}
+            img={content.id}
+            key={content.id}
+          />
+        )}
       </Fragment>
     );
   }
