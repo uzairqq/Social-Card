@@ -19,8 +19,9 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <div id="theme">
+        <div className="theme">
           <img src="/images/title.png" alt="Social App Icon" className="img-title" />
+          Developer Card Application
         </div>
         {this.state.error && <p>{this.state.error.message}</p>}
 
