@@ -6,7 +6,7 @@ import PictureContainer from './picturecontainer'
 class SocialCard extends React.Component {
     render() {
         return (
-            <div className='social-card'>
+            <div id="social-card">
                 <TitleBar user={this.props.user}
                     email={this.props.email} />
 

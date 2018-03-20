@@ -18,11 +18,11 @@ class App extends Component {
   }
   render() {
     return (
-      <Fragment>
-        <div className="theme">
-          <img src="/images/title.png" alt="Social App Icon" className="img-title" />
-          Developer Card Application
-        </div>
+      <React.Fragment>
+        <div id="theme">
+          <img src="/images/title.png" alt="Social App icon" className="img-title" /><br />
+          Dev Card Application
+      </div>
         {this.state.error && <p>{this.state.error.message}</p>}
 
         {this.state.alldata.map(content =>
@@ -34,7 +34,7 @@ class App extends Component {
             key={content.id}
           />
         )}
-      </Fragment>
+      </React.Fragment>
     );
   }
 }
