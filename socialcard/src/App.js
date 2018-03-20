@@ -18,7 +18,7 @@ class App extends Component {
   }
   render() {
     return (
-      <React.Fragment>
+      <Fragment>
         <div id="theme">
           <img src="/images/title.png" alt="Social App icon" className="img-title" /><br />
           Dev Card Application
@@ -34,7 +34,7 @@ class App extends Component {
             key={content.id}
           />
         )}
-      </React.Fragment>
+      </Fragment>
     );
   }
 }
