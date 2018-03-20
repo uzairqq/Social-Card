@@ -4,9 +4,9 @@ class PictureContainer extends React.Component {
     render() {
         var picture = '/images/' + this.props.image + '.jpg'
         return (
-            <div id='picture'>
+            <div className="picture">
                 <img src={picture} alt="added by user" />
-            </div>
+            </div >
         )
     }
 }

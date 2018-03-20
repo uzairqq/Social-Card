@@ -8,7 +8,7 @@ class TitleBar extends React.Component {
                 <img src={userIcon}
                     alt="user icon"
                     className="img-title titlebar-image" />
-                <div className='titlebar-description'>
+                <div className='title-bar-description'>
                     {this.props.user} <span>dodal/new change</span>
                 </div>
                 {/* Email:{this.props.email} */}

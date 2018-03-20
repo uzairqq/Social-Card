@@ -17,3 +17,29 @@
     height: 40px;
     margin: 10px 10px;
 }
+
+.title-bar-description {
+    color: rgb(205, 63, 63);
+    font-weight: bolder;
+}
+
+.img-title {
+    height: 30px;
+    background: #E2E2E2;
+    border: 1px solid #C3C3C3;
+    border-radius: 100%;
+    margin: 0 10px 0 0;
+}
+
+.titlebar-image {
+    float: left;
+}
+
+.picture {
+    width: 580px;
+    margin: 10px;
+}
+
+.picture img {
+    width: 580px;
+}
