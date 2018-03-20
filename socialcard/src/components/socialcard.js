@@ -8,7 +8,9 @@ class SocialCard extends React.Component {
         return (
             <div id="social-card">
                 <TitleBar user={this.props.user}
-                    email={this.props.email} />
+                    email={this.props.email}
+                    action={this.props.action}
+                />
 
                 <TextContainer message={this.props.message} />
 

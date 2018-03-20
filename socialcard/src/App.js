@@ -29,6 +29,7 @@ class App extends Component {
           <SocialCard
             user={content.user}
             message={content.info}
+            action={content.action}
             email={content.email}
             img={content.id}
             key={content.id}

@@ -1,26 +1,36 @@
-[
-  {
+[{
     "id": "1",
-    "user": "Uzair",
+    "user": "Uzair Muhammad Iqbal",
+    "action": "Shared a new pic",
     "email": "uzair.qq@outlook.com",
     "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus ex mattis libero malesuada bibendum efficitur a enim. Nunc rutrum tellus et nunc consequat, posuere faucibus ante dictum."
   },
   {
     "id": "2",
-    "user": "Laraib",
+    "user": "Laraib Iqbal",
+    "action": "Shared Changed his Profile pic",
     "email": "laraib.aiit@hotmail.com",
     "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus ex mattis libero malesuada."
   },
   {
     "id": "3",
-    "user": "Ashar",
+    "user": "Ashar Amjad",
+    "action": "Shared Changed his Profile pic",
     "email": "ashar@gmail.com",
     "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus ex mattis libero malesuada bibendum efficitur a enim. Nunc rutrum tellus et nunc consequat."
   },
   {
     "id": "4",
-    "user": "khalil",
+    "user": "khalil Mirza",
+    "action": "Shared Uzair's pic",
     "email": "khali.dev@facebook.com",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus ex mattis libero malesuada bibendum efficitur a enim. Nunc rutrum tellus et nunc consequat, posuere faucibus ante dictum."
+  },
+  {
+    "id": "5",
+    "user": "Sarmad Waheed",
+    "action": "Shared Khalil's pic",
+    "email": "sarmad.dev@facebook.com",
     "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus ex mattis libero malesuada bibendum efficitur a enim. Nunc rutrum tellus et nunc consequat, posuere faucibus ante dictum."
   }
 ]
