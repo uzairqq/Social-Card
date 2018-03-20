@@ -12,3 +12,8 @@
     box-shadow: 2px 2px 2px #C3C3C3;
     background-color: #F3F3F3;
 }
+
+.title-bar {
+    height: 40px;
+    margin: 10px 10px;
+}
